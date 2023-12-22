@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    margin-top: 0px;
+    background-attachment: relative;
+    
+    
+    
+}
+
+
+header > nav {
+    background-color: black;
+    display: flex;
+    
+
+
+}
+
+header > nav > a {
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    }
+
+header > nav > a:hover {
+    color: darkblue;
+}
+
+header > nav > a.about {
+    color: darkblue;
+}
+
+main {
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 250px;
+}
+
+main > h1 {
+    text-decoration: underline darkblue 2px;
+    margin: 25px;
+    margin-bottom: 30px;
+}
+
+main > h5 a#email {
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+main > p {
+    text-align: start;
+    
+}
+
+main > img {
+    width: 150px;
+    margin-left: 800px;
+    
+
+}
+
+
