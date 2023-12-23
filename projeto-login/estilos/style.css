@@ -29,7 +29,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: white;
@@ -40,6 +39,7 @@ section#login {
 
     transition: width 0.03s, height 0.03s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -78,6 +78,32 @@ div.campo > label {
     display: none;
 }
 
+div.campo > span {
+    color: white;
+    /*background-color: ;*/
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #64e0dc9f;
+    font-size: 1em;
+    width: calc(100% - 44px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    margin-left: 45px;
+
+    transform: translateY(-42px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+    border: none;
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
@@ -105,6 +131,7 @@ form > a.botao {
     border: 1px solid #49a09d;
     border-radius: 5px;
     text-decoration: none;
+    margin-top: 4px;
 }
 
 form > a.botao:hover {
