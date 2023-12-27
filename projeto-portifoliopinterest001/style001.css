@@ -1,113 +1,39 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
-
 
 body {
-    background-image: url(https://img.freepik.com/fotos-premium/um-escritorio-minimalista-com-uma-mesa-elegante-e-moderna-perfeita-para-jogos_124507-143546.jpg?w=740);
-    background-size: cover;
-    background-color: black;
-    
+  background-color: black;
 }
 
-
- 
 header {
-    background-color: rgba(0, 0, 0, 0.925);
-    padding: 10px;
-    margin-top: 0px;
-    background-attachment: relative;
-    
-    
-    
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  margin-top: 0px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
 }
-
 
 header > nav {
-    background-color: black;
-    display: flex;
-    
-
-
+  background-color: black;
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
 }
 
 header > nav > a {
-    color: white;
-    padding: 8px;
-    text-decoration: none;
-    }
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  margin: 0px 20px 0px 0px;
+  font-size: 1.3em;
+}
 
 header > nav > a:hover {
-    color: darkblue;
+  color: darkblue;
 }
-
-header > nav > a.home {
-    color: darkblue;
-}
-
-    main {
-        background-color: rgba(0, 0, 0, 0.767);
-        max-width: 1250px;
-        margin-left: 50px;
-        margin-right: 30px;
-        min-width: 200px;
-        min-height: 568px;
-        max-height: 1440px;
-        border-radius: 10px;
-        border: 1px solid black;
-        padding: 5px;
-        box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.301);
-        
-
-    }
-
-    main > p {
-        color: white;
-        margin-left: 100px;
-        font-size: 20px;
-    }
-
-    main > h1 {
-        color: white;
-        margin-top: 200px;
-        margin-left: 100px;
-        font-size: 70px;
-
-    }
-
-    @media (max-width: 400px){
-        main > h1 {
-            color: white;
-            margin-top: 200px;
-            margin-left: 20px;
-            font-size: 50px;
-        }
-    }
-    
-
-    footer {
-        background-color: rgba(0, 0, 0, 0.068);
-        text-align: center;
-        padding: 5px;
-        margin: 0px;
-        margin-bottom: 0px;
-    }
-
-    footer > p {
-        text-decoration: none;
-        color: white;
-        margin-top: 2px;
-        margin-bottom: 20px;
-    }
-
-    footer > p > a {
-        text-decoration: none;
-        color: white;
-    }
-
-    footer > p > a:hover {
-        color: darkblue;
-    }
