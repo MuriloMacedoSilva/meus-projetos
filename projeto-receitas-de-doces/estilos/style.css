@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+:root {
+  --gradient: linear-gradient(to right, #c7cfd9, rgb(0, 0, 58));
+}
+
+html,
+body {
+  background-image: linear-gradient(to bottom, #c7cfd9, rgb(0, 0, 58));
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+  -webkit-backdrop-filter: blur(8px);
+
+  display: flex;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.514);
+  align-items: center;
+  padding: 10px 10px 20px 10px;
+  margin: 0px;
+  position: sticky;
+  top: 0;
+}
+
+header > .logo {
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: orangered;
+  margin: 0px 10px 0px 10px;
+}
+
+header > h1 {
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: orangered;
+
+  /*border-bottom: 3px solid rgba(0, 0, 0, 0.123);
+    border-right: 3px solid rgba(0, 0, 0, 0.199);
+    border-top: 0.5px solid rgba(0, 0, 0, 0.048);
+    border-left: 0.5px solid rgba(0, 0, 0, 0.048);*/
+
+  margin: auto;
+  margin-right: 0;
+  padding: 5px;
+  font-size: 40px;
+  display: flex;
+}
+
+header > p {
+  color: orangered;
+  font-size: 15px;
+  margin: auto;
+  margin-left: 0px;
+}
+
+header > p > a {
+  text-decoration: none;
+  color: rgb(255, 143, 103);
+  border-bottom: 0.7px solid rgb(185, 162, 192);
+}
+
+header > p > a:hover {
+  color: purple;
+}
+
+header > menu {
+}
+
+header > menu > a {
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgb(255, 131, 86);
+
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+header > menu > a:hover {
+  border-bottom: 2px solid orangered;
+}
+
+/*começo das receitas*/
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    padding: 100px;
+}
+
+main > a {
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 300px;
+    border-radius: 0px 0px 10px 10px;
+    text-decoration: none;
+    margin-top: 60px;
+
+}
+
+main > a:hover {
+    border: 2px solid rgba(255, 68, 0, 0.678);
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
+  transition: transform 0.3s, border 0.1s;
+}
+
+main > a > div > p {
+    font-size: 30px;
+    margin: 0px 0px 0px 27px;
+}
+
+footer {
+    background-color: rgb(0, 0, 51);
+    color: white;
+    padding: 8px;
+    margin: 5px 0px 0px 0px;
+    align-items: center;
+    display: flex;
+    position: sticky;
+    bottom: 0;
+}
+
+.contatos {
+    margin: 0 auto;
+}
+
+.contatos > a > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+
+.contatos > a > img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.87);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
+    transition: transform 0.3s, border 0.1s;
+}
+
+.contatos > a > span {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-right: 10px;
+    color: white;
+}
+
+.contatos > a > span:hover {
+    border: 2px solid rgba(255, 255, 255, 0.87);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
+    transition: transform 0.3s, border 0.1s;
+}
