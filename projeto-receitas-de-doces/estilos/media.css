@@ -79,3 +79,13 @@ Grandes Telas: acima de 1200px
         margin-top: 40px;
     }
  }
+
+ @media screen and (min-width:800px) and (max-width:1200px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main > a {
+        margin-right: 40px;
+    }
+ }
