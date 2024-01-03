@@ -6,7 +6,7 @@
 
 html,
 body {
-  background-image: linear-gradient(to bottom, #c7cfd9, rgb(0, 0, 58));
+  background-image: linear-gradient(to bottom, #eef5ff, rgb(255, 231, 254));
   background-attachment: fixed;
   margin: 0px;
   padding: 0px;
@@ -18,17 +18,19 @@ header {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-right: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(8px);
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 0px 0px 10px 10px;
   -webkit-backdrop-filter: blur(8px);
 
   display: flex;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.514);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.171);
   align-items: center;
   padding: 10px 10px 20px 10px;
   margin: 0px;
   position: sticky;
   top: 0;
+  height: 80px;
+  z-index: 5;
 }
 
 header > .logo {
@@ -43,7 +45,7 @@ header > h1 {
   background-image: var(--gradient);
   background-clip: text;
   -webkit-background-clip: text;
-  color: orangered;
+  color: rgb(0, 0, 0);
 
   /*border-bottom: 3px solid rgba(0, 0, 0, 0.123);
     border-right: 3px solid rgba(0, 0, 0, 0.199);
@@ -53,12 +55,13 @@ header > h1 {
   margin: auto;
   margin-right: 0;
   padding: 5px;
-  font-size: 40px;
+  font-size: 60px;
+  font-family: 'Sevillana', cursive;
   display: flex;
 }
 
 header > p {
-  color: orangered;
+  color: rgb(0, 0, 0);
   font-size: 15px;
   margin: auto;
   margin-left: 0px;
@@ -81,92 +84,255 @@ header > menu > a {
   background-image: var(--gradient);
   background-clip: text;
   -webkit-background-clip: text;
-  color: rgb(255, 131, 86);
+  color: rgb(0, 0, 0);
 
   text-decoration: none;
   padding: 10px;
   font-size: 20px;
+  margin-right: 15px;
 }
 
 header > menu > a:hover {
-  border-bottom: 2px solid orangered;
+  border-bottom: 0.7px solid orangered;
 }
 
-/*começo das receitas*/
+/*slides*/
 
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 10px;
-    padding: 100px;
+section.slider {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  overflow: hidden;
 }
 
-main > a {
-    background-color: white;
-    color: black;
-    width: 300px;
-    height: 300px;
-    border-radius: 0px 0px 10px 10px;
-    text-decoration: none;
-    margin-top: 60px;
-    box-shadow: 10px rgba(0, 0, 0, 0.39);
-
+.slider-content {
+  width: 400%;
+  height: 450px;
+  display: flex;
 }
 
-main > a:hover {
-    border: 2px solid rgba(255, 68, 0, 0.678);
+.slider-content > input,
+.img-mobile {
+  display: none;
+}
+
+.slide-box {
+  width: 25%;
+  height: 450px;
+  position: relative;
+  text-align: center;
+  transition: 1s;
+}
+
+.slide-box > img {
+  width: 100%;
+  height: 450px;
+}
+
+.nav-manual,
+.nav-auto {
+  position: absolute;
+  width: 100%;
+  margin-top: 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-manual > .manual-btn,
+.nav-auto > div {
+  border: 1px solid orangered;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav-manual .manual-btn:not(:last-child),
+.nav-auto > div:not(:last-child) {
+  margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover {
+  background-color: orangered;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1 {
+  background-color: orangered;
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2 {
+  background-color: orangered;
+}
+
+#radio3:checked ~ .nav-auto .auto-btn3 {
+  background-color: orangered;
+}
+
+#radio1:checked ~ .primeiro {
+  margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro {
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro {
+  margin-left: -50%;
+}
+
+/*fim do slide*/
+
+.introduçao {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 170px;
+  width: 600px;
+  font-size: 1.2em;
+  color: #313335;
+}
+
+.introduçao > h3 {
+  font-size: 30px;
+}
+
+.introduçao > h3 > strong {
+  font-family: 'Sevillana', cursive;
+  font-size: 47px;
+}
+
+.img-container, .img-container > div {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  align-items: center;
+}
+
+.img-cont1 > img:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.img-cont2 > img:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.img-cont3 > img:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.cont2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.txt {
+  text-align: center;
+  width: 469px;
+  font-size: 1.2em;
+  color: #313335;
+}
+
+.cont2 > .txt > h3 {
+  font-size: 30px
+}
+
+.cont2 > div > a {
+  text-decoration: none;
+  display: block;
+  background-color: #313335;
+  color: white;
+  font-size: 20px;
+  width: 120px;
+  padding: 15px;
+  border-radius: 3px;
+  margin: auto;
+}
+
+.cont2 > div > a:hover {
+  transition: 0.2s;
+  transform: scale(1.05);
+  border: 1px solid orangered;
+}
+
+/*essa poha aqui
+
+section.doces {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 10px;
+  padding: 100px;
+}
+
+section.doces > a {
+  background-color: white;
+  color: black;
+  width: 300px;
+  height: 300px;
+  border-radius: 0px 0px 10px 10px;
+  text-decoration: none;
+  margin-top: 60px;
+  box-shadow: 10px rgba(0, 0, 0, 0.39);
+}
+
+section.doces > a:hover {
+  border: 2px solid rgba(255, 68, 0, 0.678);
   transform: translate(-3px, -3px);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
   transition: transform 0.3s, border 0.1s;
 }
 
-main > a > div > p {
-    font-size: 30px;
-    margin: 0px 0px 0px 27px;
+section.doces > a > div > p {
+  font-size: 30px;
+  margin: 0px 0px 0px 27px;
 }
 
 footer {
-    background-color: rgb(0, 0, 51);
-    color: white;
-    padding: 8px;
-    margin: 5px 0px 0px 0px;
-    align-items: center;
-    display: flex;
-    position: sticky;
-    bottom: 0;
+  background-color: rgba(0, 0, 51, 0);
+  color: white;
+  padding: 8px;
+  margin: 5px 0px 0px 0px;
+  align-items: center;
+  display: flex;
+  position: sticky;
+  bottom: 0;
 }
 
 .contatos {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .contatos > a > img {
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    margin: 0 auto;
-    margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-right: 10px;
 }
 
 .contatos > a > img:hover {
-    border: 2px solid rgba(255, 255, 255, 0.87);
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
-    transition: transform 0.3s, border 0.1s;
+  border: 2px solid rgba(255, 255, 255, 0.87);
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
+  transition: transform 0.3s, border 0.1s;
 }
 
 .contatos > a > span {
-    width: 24px;
-    height: 24px;
-    border-radius: 100%;
-    margin: 0 auto;
-    margin-right: 10px;
-    color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-right: 10px;
+  color: white;
 }
 
 .contatos > a > span:hover {
-    border: 2px solid rgba(255, 255, 255, 0.87);
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
-    transition: transform 0.3s, border 0.1s;
+  border: 2px solid rgba(255, 255, 255, 0.87);
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
+  transition: transform 0.3s, border 0.1s;
 }
