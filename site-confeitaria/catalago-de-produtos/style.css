@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+:root {
+  --gradient: linear-gradient(to right, #c7cfd9, rgb(0, 0, 58));
+}
+
+html,
+body {
+  background-image: linear-gradient(to bottom, #eef5ff, rgb(255, 231, 254));
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.171);
+  align-items: center;
+  padding: 10px 10px 20px 10px;
+  margin: 0px;
+  top: 0;
+  height: 80px;
+  z-index: 5;
+}
+
+header > .logo {
+  color: orangered;
+  margin: 0px 10px 0px 10px;
+}
+
+header > h1 {
+  color: rgb(0, 0, 0);
+
+  /*border-bottom: 3px solid rgba(0, 0, 0, 0.123);
+    border-right: 3px solid rgba(0, 0, 0, 0.199);
+    border-top: 0.5px solid rgba(0, 0, 0, 0.048);
+    border-left: 0.5px solid rgba(0, 0, 0, 0.048);*/
+
+  margin: auto;
+  margin-right: 0;
+  padding: 5px;
+  font-size: 60px;
+  font-family: "Sevillana", cursive;
+  display: flex;
+}
+
+header > p {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  margin: auto;
+  margin-left: 0px;
+}
+
+header > p > a {
+  text-decoration: none;
+  color: rgb(255, 143, 103);
+  border-bottom: 0.7px solid rgb(185, 162, 192);
+}
+
+header > p > a:hover {
+  color: purple;
+}
+
+span#burguer {
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 5px solid black;
+  transition: 1s;
+}
+
+header > menu {
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  margin-top: 290px;
+  margin-right: -86px;
+  border: 1px solid rgb(226, 226, 226);
+  padding: 30px 0;
+  transition: 1s;
+  border-radius: 20px;
+  box-shadow: 9px solid black;
+  width: 300px;
+  z-index: 6;
+  animation-name: openmenu;
+  animation-duration: 0.5s;
+}
+
+header > menu > ul {
+  list-style: none;
+  padding: 10px;
+  width: 300px;
+  transition: 1s;
+  z-index: 7;
+}
+
+header > menu > ul > li > a {
+  background-color: #313335;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  display: block;
+  text-align: center;
+  transition: 1s;
+  z-index: 7;
+}
+
+header > menu > ul > li > a:hover {
+  color: orangered;
+}
+
+@keyframes openmenu {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1;
+  }
+}
+
+/*começo do site a */
+
+.cont1 {
+    background-color: rgb(250, 215, 248);
+    width: 1250px;
+    height: 500px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Forum', serif;
+    color: #313335;
+    position: absolute;
+    margin-top: 100px;
+    border-right: 50px solid #3133358e;
+    border-radius: 0 20% 0 0;
+}
+
+.txt-cont1 {
+    margin: 100px 0 0 390px;
+}
+
+.txt-cont1 > h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.img-cont1 > img {
+    width: 20%;
+    margin: 80px 0 0 700px;
+}
