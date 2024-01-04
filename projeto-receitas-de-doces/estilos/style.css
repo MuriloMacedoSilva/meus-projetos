@@ -15,36 +15,24 @@ body {
 
 header {
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(8px);
   background-color: rgb(255, 255, 255);
   border-radius: 0px 0px 10px 10px;
-  -webkit-backdrop-filter: blur(8px);
-
   display: flex;
   box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.171);
   align-items: center;
   padding: 10px 10px 20px 10px;
   margin: 0px;
-  position: sticky;
   top: 0;
   height: 80px;
   z-index: 5;
 }
 
 header > .logo {
-  background-image: var(--gradient);
-  background-clip: text;
-  -webkit-background-clip: text;
   color: orangered;
   margin: 0px 10px 0px 10px;
 }
 
 header > h1 {
-  background-image: var(--gradient);
-  background-clip: text;
-  -webkit-background-clip: text;
   color: rgb(0, 0, 0);
 
   /*border-bottom: 3px solid rgba(0, 0, 0, 0.123);
@@ -99,6 +87,9 @@ header > menu  {
   border-radius: 20px;
   box-shadow: 9px solid black;
   width: 300px;
+  z-index: 6;
+  animation-name: openmenu;
+  animation-duration: 0.5s;
 }
 
 header > menu > ul {
@@ -106,6 +97,7 @@ header > menu > ul {
   padding: 10px;
   width: 300px;
   transition: 1s;
+  z-index: 7;
 }
 
 header > menu > ul > li > a {
@@ -119,10 +111,16 @@ header > menu > ul > li > a {
   display: block;
   text-align: center;
   transition: 1s;
+  z-index: 7;
 }
 
 header > menu > ul > li > a:hover {
   color: orangered;
+}
+
+@keyframes openmenu {
+  from{scale: 0;}
+  to{scale: 1;}
 }
 
 /*slides*/
@@ -133,17 +131,20 @@ section.slider {
   height: auto;
   padding: 0;
   overflow: hidden;
+  box-shadow: 10px solid black;
 }
 
 .slider-content {
   width: 400%;
   height: 450px;
   display: flex;
+  box-shadow: 10px solid black;
 }
 
 .slider-content > input,
 .img-mobile {
   display: none;
+  box-shadow: 10px solid black;
 }
 
 .slide-box {
@@ -152,18 +153,20 @@ section.slider {
   position: relative;
   text-align: center;
   transition: 1s;
+  box-shadow: 10px solid black;
 }
 
 .slide-box > img {
   width: 100%;
   height: 450px;
+  box-shadow: 10px solid black;
 }
 
 .nav-manual,
 .nav-auto {
   position: absolute;
   width: 100%;
-  margin-top: 35%;
+  margin-top: 36%;
   display: flex;
   justify-content: center;
 }
@@ -247,9 +250,53 @@ section.slider {
   transform: scale(1.1);
 }
 
+.img-cont2 {
+  overflow: hidden;
+}
+
 .img-cont3 > img:hover {
   transition: 1s;
   transform: scale(1.1);
+}
+
+.img-cont3 {
+  overflow: hidden;
+}
+
+.img-cont4 > img:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.img-cont4 {
+  overflow: hidden;
+}
+
+.img-cont5 > img:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.img-cont5 {
+  overflow: hidden;
+}
+
+.img-cont6 > img:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.img-cont6 {
+  overflow: hidden;
+}
+
+.img-cont7 > img:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.img-cont7 {
+  overflow: hidden;
 }
 
 .cont2 {

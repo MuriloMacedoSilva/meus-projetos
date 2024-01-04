@@ -17,6 +17,9 @@ function proximaimg() {
     document.getElementById('radio'+cont).checked = true
 }
 
+var button = document.getElementById('burguer')
+var utran = document.getElementById('utran')
+
 function clickmenu() {
    if (itens.style.display == 'block') {
     itens.style.display = 'none'
