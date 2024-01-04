@@ -204,6 +204,51 @@
     </div>
 
     <footer>
+      <section id="msg">
+        <div id="formulario">
+          <h3>Receba novidades e promoçoes</h3>
+          <form action="login.php" method="post" autocomplete="on">
+            <div class="campo">
+              <label for="iname"> Nome</label>
+
+              <input
+                type="name"
+                name="name"
+                id="iname"
+                placeholder="seu nome"
+                autocomplete="nome"
+                required
+                maxlength="30"
+              />
+
+            </div>
+            <div class="campo">
+              <label for="iemail"> Email</label>
+
+              <input
+                type="email"
+                name="email"
+                id="iemail"
+                placeholder="seu email"
+                autocomplete="email"
+                required
+                minlength="8"
+                maxlength="20"
+              />
+
+            </div>
+            <input type="submit" value="Enviar" id="enviar" />
+          </form>
+        </div>
+      </section>
+
+      <section class="menu-footer">
+        <div>
+          <a href="">Home</a>
+          <a href="">Catalogo de itens</a>
+          <a href="">Contato</a>
+        </div>
+      </section>
     </footer>
 
     <script src="slider.js"></script>
