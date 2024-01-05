@@ -86,6 +86,10 @@ Grandes Telas: acima de 1200px
         margin-left: 30px;
     }
 
+    footer > div > a {
+        display: none;
+    }
+
 
  }
 
