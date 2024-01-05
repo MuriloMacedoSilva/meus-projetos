@@ -8,7 +8,7 @@ Desktop: 992px até 1200px
 Grandes Telas: acima de 1200px
  */
 
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 1000px) {
 
     header {
         position: relative;
@@ -19,8 +19,8 @@ Grandes Telas: acima de 1200px
     }
 
     menu {
+        margin: 0px 100px auto;
         position: absolute;
-        margin: auto;
     }
 
     .cont2, .cont3, .cont4, .cont5, .cont5, .cont6 {
@@ -72,9 +72,7 @@ Grandes Telas: acima de 1200px
 
     footer {
         display: flex;
-        flex-direction: row;
         justify-content: space-around;
-        width: 300px;
     }
 
     footer > div {
@@ -82,25 +80,10 @@ Grandes Telas: acima de 1200px
         padding: 0;
     }
 
-    footer > section > div > h3 {
-        margin-left: 30px;
-    }
-
-    .menu-footer {
-        margin-left: -40px;
-        background-color: transparent;
-        display: none;
-    }
-
-    .campo {
-        width: 100%;
-        
-    }
-
     #enviar {
-        width: 100%;
+        width: 200px;
+        margin: auto;
     }
-
 
  }
 

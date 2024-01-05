@@ -543,14 +543,13 @@ footer > #msg > #formulario > h3 {
 }
 
 #msg {
-  margin: 0 100px;
   padding: 10px;
   background-color: rgba(255, 221, 221, 0);
   border-radius: 10px;
 }
 
 .campo {
-  margin: 60px;
+  margin: 60px 0;
 }
 
 input {
@@ -575,22 +574,3 @@ input {
   scale: 1.1;
 }
 
-.menu-footer {
-  display: none;
-}
-
-.menu-footer > div > a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  background-color: #313335;
-  display: block;
-  padding: 20px;
-  transition: 0.5s;
-  overflow: hidden;
-  border-radius: 20px;
-}
-
-.menu-footer > div > a:hover {
-  color: orangered;
-  scale: 1.1;
-}
