@@ -74,7 +74,7 @@ Grandes Telas: acima de 1200px
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        width: 350px;
+        width: 300px;
     }
 
     footer > div {
@@ -86,8 +86,9 @@ Grandes Telas: acima de 1200px
         margin-left: 30px;
     }
 
-    footer > div > a {
-        display: none;
+    .menu-footer {
+        margin-left: -40px;
+        background-color: ;
     }
 
 

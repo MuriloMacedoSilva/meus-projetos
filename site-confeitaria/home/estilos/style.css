@@ -581,6 +581,8 @@ input {
   flex-direction: column;
   text-decoration: none;
   gap: 5px;
+  background-color: #313335;
+  width: 126px;
 }
 
 .menu-footer > div > a {
