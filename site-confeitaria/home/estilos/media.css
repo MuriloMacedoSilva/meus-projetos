@@ -88,7 +88,17 @@ Grandes Telas: acima de 1200px
 
     .menu-footer {
         margin-left: -40px;
-        background-color: ;
+        background-color: transparent;
+        display: none;
+    }
+
+    .campo {
+        width: 100%;
+        
+    }
+
+    #enviar {
+        width: 100%;
     }
 
 
