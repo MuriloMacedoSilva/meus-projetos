@@ -154,7 +154,7 @@ div.home {
 }
 
 div.imagem {
-  margin-top: 130px;
+  margin-top: 0px;
 }
 
 .experiencia {
@@ -227,21 +227,20 @@ div.imagem {
   border: 2px solid rgba(255, 255, 255, 0.658);
   transform: translate(-3px, -3px);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
-  transition: transform 0.3s, border 0.1s;
+  transition: transform 2s, border 1s;
 }
 
 .experiencia-container2:hover {
   border: 2px solid rgba(255, 255, 255, 0.658);
   transform: translate(-3px, -3px);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
-  transition: transform 0.3s, border 0.1s;
+  transition: transform 2s, border 1s;
 }
 
 .experiencia-container3:hover {
   border: 2px solid rgba(255, 255, 255, 0.658);
   transform: translate(-3px, -3px);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
-  transition: transform 0.3s, border 0.1s;
 }
 
 .serviços {

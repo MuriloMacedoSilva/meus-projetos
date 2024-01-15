@@ -130,16 +130,15 @@ header > menu > ul > li > a:hover {
 /*começo do site a */
 
 .cont1 {
-    background-color: rgb(250, 215, 248);
+    background-color: rgb(250, 215, 239);
     width: 1250px;
     text-align: center;
     font-size: 30px;
     font-family: 'Forum', serif;
-    color: #313335;
+    color: #292b2c;
     margin-top: 20px;
-    border-right: 50px solid #3133358e;
-    border-radius: 0 20% 0 0;
     padding-top: 50px;
+    box-shadow: 10px rgba(0, 0, 0, 0.322);
 }
 
 .txt-cont1 {
@@ -157,32 +156,6 @@ header > menu > ul > li > a:hover {
     margin: 80px 0 0 700px;
 }
 
-.cont2 {
-    background-color: transparent;
-    font-size: 20px;
-    width: 500px;
-    padding-top: 50px;
-    margin-top: -200px;
-    margin-left: 100px;
-    list-style: none;
-    display: flex;
-}
-
-.cont2 > h1 {
-    margin-bottom: 100px;
-    font-size: 50px;
-}
-
-.cont2 > ul, li {
-    list-style: none;
-    font-size: 18px;
-}
-
-.img-cont2 {
-    width: 100vw;
-    margin: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
-
+.titulo {
+  margin: 0 ;
 }
