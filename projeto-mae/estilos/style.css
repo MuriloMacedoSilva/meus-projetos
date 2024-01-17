@@ -35,6 +35,10 @@ header {
   padding: 10px;
   margin: 0px;
   height: 50px;
+  position: sticky;
+  top: 0;
+  box-shadow: 2px 2px 3px  rgba(0, 0, 0, 0.308);
+  z-index: 1;
 }
 
 header > span {
@@ -52,7 +56,7 @@ nav > a {
   color: black;
   margin: 0 30px;
   font-size: 1.1em;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 nav > a:hover {
@@ -73,27 +77,45 @@ nav > a:hover {
   height: auto;
 }
 
-.txt-cont1 > h1 {
-  text-decoration: underline 3px orangered;
-}
-
 .h1 {
-  margin: -100px 0 0 0;
+  margin: 50px 0 0 0;
   font-size: 100px;
+  animation: titulo 3s;
+  animation-timing-function: cubic-bezier(0.71, -0.59, 0.32, 1.63);
 }
 
 .h1-2 {
   margin: -10px 0 0 200px;
   font-size: 100px;
+  animation: titulo 3s;
+  animation-timing-function: cubic-bezier(0.71, -0.59, 0.32, 1.63);
 }
 
-.txt-cont1> h2 {
-  margin: 90px 0 0 90px;
+.linha-h {
+  background-color: orangered;
+  width: 300px;
+  height: 3px;
+  animation: linha1 7s;
+  animation-timing-function: cubic-bezier(0.71, -0.59, 0.32, 1.63);
+}
+
+.linha-h2 {
+  background-color: orangered;
+  width: 500px;
+  height: 3px;
+  margin: 0px 0 100px 200px;
+  animation: linha2 7s;
+  animation-timing-function: cubic-bezier(0.71, -0.59, 0.32, 1.63);
+}
+
+.txt-cont1 > h2 {
+  margin: 20px 0 50px 90px;
   text-decoration: underline 1.5px orangered;
 }
 
 .txt-cont1 > p {
   margin: 20px 0 0 80px;
+  color: rgb(63, 63, 63);
 }
 
 .img-cont1 {
@@ -113,4 +135,106 @@ nav > a:hover {
 
 .img-cont1 > img:hover {
   scale: 1.1;
+}
+
+@keyframes titulo {
+  0% {
+    color: orangered;
+  }
+
+  100% {
+    color: black;
+  }
+}
+
+@keyframes linha1 {
+  0% {
+    margin-left: 0;
+    width: 0px;
+    background-color: black;
+  }
+
+  60% {
+    width: 600px;
+  }
+
+  100% {
+    background-color: orangered;
+    width: 300px;
+    height: 3px;
+  }
+}
+
+@keyframes linha2 {
+  0% {
+    margin-left: 0;
+    width: 0px;
+    background-color: black;
+  }
+  100% {
+    background-color: orangered;
+    width: 500px;
+    height: 3px;
+    margin-left: 200px;
+  }
+}
+
+.seta {
+background-color: rgb(43, 43, 43);
+width: 40px;
+height: 40px;
+margin: 100px 0 0 200px;
+border-radius: 50%;
+animation: pisca 4s;
+animation-iteration-count: infinite;
+
+}
+
+.seta > span {
+  margin: 10px 0 0 8px;
+  color: white;
+}
+
+@keyframes pisca {
+  0% {
+    background-color: white;
+  }
+
+  50% {
+    background-color: rgb(53, 53, 53);
+  }
+
+  100% {
+    background-color: rgb(255, 255, 255)
+  }
+}
+
+.cont2 {
+  padding: 150px 0 0 0;
+}
+
+.cont2 > h1 {
+  margin: 20px 600px 100px 600px;
+  font-size: 30px;
+  text-decoration: underline 2px orangered;
+}
+
+.inter-cont2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 0 0 100px 0;
+}
+
+.boxes {
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.205);
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+  color: rgb(68, 68, 68);
+  transition: .2s;
+}
+
+.boxes:hover {
+  scale: 1.05;
 }
