@@ -18,9 +18,10 @@ Grandes Telas: acima de 1200px
         font-size: 30px;
     }
 
-    menu {
-        margin: 0px 100px auto;
+    menu, ul{
+        margin: 0;
         position: absolute;
+        height: 150px;
     }
 
     .cont2, .cont3, .cont4, .cont5, .cont5, .cont6 {
@@ -126,6 +127,12 @@ Grandes Telas: acima de 1200px
 @media screen and (min-width: 750px)  and (max-width: 830px) {
     .nav-auto, .nav-manual {
         margin-top: 63%;
+    }
+
+    menu, ul{
+        margin: 0 0 0 400px;
+        position: absolute;
+        height: 150px;
     }
 }
 
