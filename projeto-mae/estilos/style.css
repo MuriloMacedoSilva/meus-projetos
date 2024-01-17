@@ -68,7 +68,7 @@ nav > a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid black; */
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.116);
 }
 
 .txt-cont1 {
@@ -93,7 +93,7 @@ nav > a:hover {
 
 .linha-h {
   background-color: orangered;
-  width: 300px;
+  width: 380px;
   height: 3px;
   animation: linha1 7s;
   animation-timing-function: cubic-bezier(0.71, -0.59, 0.32, 1.63);
@@ -160,7 +160,7 @@ nav > a:hover {
 
   100% {
     background-color: orangered;
-    width: 300px;
+    width: 380px;
     height: 3px;
   }
 }
@@ -171,6 +171,7 @@ nav > a:hover {
     width: 0px;
     background-color: black;
   }
+
   100% {
     background-color: orangered;
     width: 500px;
@@ -183,7 +184,7 @@ nav > a:hover {
 background-color: rgb(43, 43, 43);
 width: 40px;
 height: 40px;
-margin: 100px 0 0 200px;
+margin: 150px 0 0 630px;
 border-radius: 50%;
 animation: pisca 4s;
 animation-iteration-count: infinite;
@@ -193,6 +194,7 @@ animation-iteration-count: infinite;
 .seta > span {
   margin: 10px 0 0 8px;
   color: white;
+  cursor: pointer;
 }
 
 @keyframes pisca {
@@ -211,6 +213,7 @@ animation-iteration-count: infinite;
 
 .cont2 {
   padding: 150px 0 0 0;
+  background-color: white;
 }
 
 .cont2 > h1 {
@@ -233,6 +236,7 @@ animation-iteration-count: infinite;
   border-radius: 0 10px 10px 0;
   color: rgb(68, 68, 68);
   transition: .2s;
+  margin: 0 10px;
 }
 
 .boxes:hover {
