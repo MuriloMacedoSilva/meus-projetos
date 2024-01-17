@@ -10,16 +10,6 @@
   
 }*/
 
-html,
-body {
-  /*background-image: url(../imagens/estoyloco.jpg);*/
-  background-color: #000013;
-  /*background-size: ;*/
-  margin: 0px;
-  padding: 0px;
-  scroll-behavior: smooth;
-}
-
 .efeito-main-topo,
 .efeito-img-topo,
 .experiencia-container1,
@@ -28,239 +18,99 @@ body {
   visibility: hidden;
 }
 
+html,
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 header {
-  background-color: #000000;
-  align-items: center;
+  background-color: white;
   display: flex;
-  margin: 0;
-  box-shadow: 0px 0px 11px 0px;
-  position: sticky;
-  top: 0;
-  z-index: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0px;
+  height: 50px;
 }
 
 header > span {
   color: orangered;
+  margin: 10px;
+}
+
+nav {
+  display: flex;
+  color: black;
+}
+
+nav > a {
   text-decoration: none;
-  display: block;
-  margin: 20px;
-  font-size: 2em;
+  color: black;
+  margin: 0 30px;
+  font-size: 1.1em;
+  transition: .3s;
 }
 
-header > menu {
-  margin: 20px auto;
+nav > a:hover {
+  color: rgb(255, 90, 30);
 }
 
-header > menu > a {
-  color: rgb(255, 255, 255);
-  display: inline-block;
-  text-decoration: none;
-  margin: 5px;
-  margin-left: 35px;
-  padding: 5px;
-  font-size: 1.2em;
+.cont1 {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
 }
 
-header > menu > a:hover {
-  color: orangered;
+.txt-cont1 {
+  padding: 20px;
+  width: 400px;
+  height: auto;
 }
 
-main {
-  margin: 0px;
-  padding: 0px;
-}
-
-div.home {
-  background-image: linear-gradient(to bottom, #000, #010018, #000000);
-  /*background-color: #010018;*/
-  margin: 0px;
-  padding: 0px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.main-home {
-  /*box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(8px);
-  background-color: rgba(0, 0, 0, 0.349);
-  border-radius: 0 20px 20px 0px;
-  -webkit-backdrop-filter: blur(8px);*/
-  margin-top: 120px;
-  margin-left: 40px;
-  margin-right: 100px;
-  padding: 15px;
-  width: 540px;
-  height: 600px;
-  z-index: 0;
-}
-
-.main-home > h1 {
-  color: #ffffff;
-  margin: 30px auto;
-  margin-left: 30px;
-  font-size: 60px;
-  font-family: "Gravitas One", serif;
+.txt-cont1 > h1 {
   text-decoration: underline 3px orangered;
-  text-shadow: 30px black;
 }
 
-.main-home > h2 {
-  color: white;
-  font-size: 25px;
-  margin: auto;
+.h1 {
+  margin: -100px 0 0 0;
+  font-size: 100px;
 }
 
-.main-home > p {
-  color: white;
-  margin: 20px auto;
-  font-size: 1.2em;
+.h1-2 {
+  margin: -10px 0 0 200px;
+  font-size: 100px;
 }
 
-.footer-home {
-  display: flex;
-  margin-top: -25px;
-  padding: 5px;
-  align-items: center;
+.txt-cont1> h2 {
+  margin: 90px 0 0 90px;
+  text-decoration: underline 1.5px orangered;
 }
 
-.footer-home > p {
-  color: white;
-  margin: 0px 300px 0px 300px;
-  padding: 4px;
-  align-items: center;
+.txt-cont1 > p {
+  margin: 20px 0 0 80px;
 }
 
-.footer-home > div.redes-sociais {
-  display: flex;
-  padding: 10px;
-  margin-top: 20px;
+.img-cont1 {
+  width: 600px;
+  height: 700px;
+  overflow: hidden;
+  padding: 0;
+  margin: 200px 0 0 0;
 }
 
-.footer-home > div.redes-sociais > a > img {
-  width: 50px;
-  margin: 10px;
-  border-radius: 50%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
-  display: inline;
-}
-
-.footer-home > div.redes-sociais > a > img:hover {
-  border: 2px solid rgba(255, 255, 255, 0.658);
-  transform: translate(-3px, -3px);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
-  transition: transform 0.3s, border 0.1s;
-}
-
-div.imagem {
-  margin-top: 0px;
-}
-
-.experiencia {
-  background-image: linear-gradient(to bottom, #000, #010018);
-  /*background-color: rgb(99, 99, 99);*/
-  background-size: contain;
+.img-cont1 > img {
+  width: 600px;
   position: relative;
-  margin: 0px;
-  padding: 0px;
+  margin-top: -100px;
+  transition: 1s;
 }
 
-.experiencia-header {
-  display: flex;
-  margin: 0 auto;
-  padding: 10px;
-  align-items: center;
-}
-
-.experiencia-header > h2 {
-  color: white;
-  text-decoration: underline 3px orangered;
-  margin: 150px 0px 20px 55px;
-}
-
-.experiencia-main {
-  padding: 10px;
-  margin: 100px 0px 20px 55px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  color: white;
-}
-
-.experiencia-container1 {
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(8px);
-  background-color: rgba(0, 0, 0, 0.349);
-  border-radius: 30px;
-  -webkit-backdrop-filter: blur(8px);
-  padding: 30px;
-  margin: 10px;
-}
-
-.experiencia-container2 {
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(8px);
-  background-color: rgba(0, 0, 0, 0.349);
-  border-radius: 30px;
-  -webkit-backdrop-filter: blur(8px);
-  padding: 15px;
-  margin: 10px;
-}
-
-.experiencia-container3 {
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(8px);
-  background-color: rgba(0, 0, 0, 0.349);
-  border-radius: 30px;
-  -webkit-backdrop-filter: blur(8px);
-  padding: 15px;
-  margin: 10px;
-}
-
-.experiencia-container1:hover {
-  border: 2px solid rgba(255, 255, 255, 0.658);
-  transform: translate(-3px, -3px);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
-  transition: transform 2s, border 1s;
-}
-
-.experiencia-container2:hover {
-  border: 2px solid rgba(255, 255, 255, 0.658);
-  transform: translate(-3px, -3px);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
-  transition: transform 2s, border 1s;
-}
-
-.experiencia-container3:hover {
-  border: 2px solid rgba(255, 255, 255, 0.658);
-  transform: translate(-3px, -3px);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
-}
-
-.serviços {
-  background-image: linear-gradient(to bottom, #000, #010018);
-  /*background-color: rgb(99, 99, 99);*/
-  background-size: contain;
-  position: relative;
-  margin: 0px;
-  padding: 0px;
-}
-
-.serviços > header {
-  display: flex;
-  margin: 0 auto;
-  padding: 10px;
-  align-items: center;
-}
-
-.serviços > header > h2 {
-  color: white;
-  text-decoration: underline 3px orangered;
-  margin: 150px 0px 20px 55px;
+.img-cont1 > img:hover {
+  scale: 1.1;
 }
