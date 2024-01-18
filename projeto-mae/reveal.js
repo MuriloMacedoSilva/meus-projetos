@@ -36,3 +36,8 @@ revelar.reveal('.experiencia-container3',
     distance: '90px',
     delay: 500
 })
+
+window.addEventListener("scroll", function() {
+    let header = this.document.querySelector('#header')
+    header.classList.toggle('rolagem',window.scrollY > 100)
+})

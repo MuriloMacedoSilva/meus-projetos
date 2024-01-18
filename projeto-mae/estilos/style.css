@@ -37,8 +37,14 @@ header {
   height: 50px;
   position: sticky;
   top: 0;
-  box-shadow: 2px 2px 3px  rgba(0, 0, 0, 0.308);
   z-index: 1;
+  animation: header 0.5s;
+  animation-timeline: scroll();
+  animation-timing-function: ease-in-out;
+}
+
+header.rolagem {
+  box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.082);
 }
 
 header > span {
@@ -181,14 +187,13 @@ nav > a:hover {
 }
 
 .seta {
-background-color: rgb(43, 43, 43);
-width: 40px;
-height: 40px;
-margin: 150px 0 0 630px;
-border-radius: 50%;
-animation: pisca 4s;
-animation-iteration-count: infinite;
-
+  background-color: rgb(43, 43, 43);
+  width: 40px;
+  height: 40px;
+  margin: 150px 0 0 630px;
+  border-radius: 50%;
+  animation: pisca 4s;
+  animation-iteration-count: infinite;
 }
 
 .seta > span {
@@ -207,7 +212,7 @@ animation-iteration-count: infinite;
   }
 
   100% {
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(255, 255, 255);
   }
 }
 
@@ -235,7 +240,7 @@ animation-iteration-count: infinite;
   padding: 20px;
   border-radius: 0 10px 10px 0;
   color: rgb(68, 68, 68);
-  transition: .2s;
+  transition: 0.2s;
   margin: 0 10px;
 }
 
