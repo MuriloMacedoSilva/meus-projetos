@@ -14,7 +14,7 @@ Grandes Telas: acima de 1200px
         position: relative;
     }
 
-    header > h1 {
+    .div-header > h1 {
         font-size: 30px;
     }
 
