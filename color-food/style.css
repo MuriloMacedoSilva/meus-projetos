@@ -3,192 +3,49 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: black;
 }
 
 header {
-  background-color: black;
-  padding: 10px;
+  background-color: #dadada;
+  padding: 20px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  width: 100vw;
-  position: sticky;
-  top: 0;
-  animation: headernone 6s;
-}
-
-@keyframes headernone {
-  0% {
-    background-color: black;
-    color: black;
-    display: none;
-  }
-
-  100% {
-    background-color: black;
-    color: black;
-    display: none;
-  }
-}
-
-.logo > h1 {
-  color: white;
-  font-family: Arapey;
-  font-weight: 5;
-  font-style: italic;
-  display: none;
-  animation: headernone 6s;
+  margin: auto;
 }
 
 nav {
+  /*background-color: blueviolet;*/
+  padding: 10px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  gap: 60px;
-  padding: 5px;
-  margin-right: 10px;
-  animation: headernone 6s;
+  margin: auto;
 }
 
 nav > a {
-  color: white;
-  text-decoration: none;
-  font-family: Arapey;
-  font-style: italic;
-  font-size: 17px;
-  animation: headernone 6s;
-}
-
-.colorfuld {
-  color: #fff;
-  font-family: Arapey;
-  font-size: 180px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 44px;
-  margin-top: 130px;
-  position: absolute;
-  z-index: 1;
-}
-
-.h2 {
+  /*background-color: aquamarine;*/
   color: black;
-  margin: 50px 0 0 30px;
-  font-family: Arapey;
-  font-size: 35px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 44px;
-  position: absolute;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
 }
 
-.img {
-  background: url(pexels-valeria-boltneva-842571.jpg) no-repeat center center;
-  width: 400px;
-  height: 550px;
-  background-attachment: fixed;
-  margin: 0 0 0 590px;
-  top: 0;
-  position: absolute;
-  z-index: 0;
-}
-
-.black {
-  background-color: black;
-  width: 100vw;
-  height: 300px;
-  margin: 0 0 0 0;
-  position: absolute;
-  z-index: -1;
-  animation: black 4s ease-in-out;
-}
-
-.white {
-  background-color: white;
-  width: 100vw;
-  height: 300px;
-  margin: 260px 0 260px 0;
-  z-index: -1;
-  animation: white 8s ease-in-out 4s;
-}
-
-@keyframes white {
-  0% {
-    background-color: black;
-    width: 0px;
-    right: 0;
-  }
-
-  100% {
-    width: 100vw;
-    right: 0;
-  }
-}
-
-@keyframes black {
-  0% {
-    background-color: white;
-    width: 100vw;
-    left: 0;
-  }
-
-  100% {
-    width: 0px;
-  }
-}
-
-.cont1 {
-  background: #d9d9d9;
-  box-shadow: 20px 20px 25px 0px rgba(0, 0, 0, 0.5) inset;
-  width: 1326px;
-  height: 542px;
-  flex-shrink: 0;
-  margin: auto;
-  margin-bottom: 40px;
+.sobre {
+  background-color: #dadada;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-between;
+  padding: 100px 0 0 0;
 }
 
-.txt-cont1 {
-  padding: 20px;
-  margin: 30px 0 30px 30px;
-  justify-content: left;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+.box-image {
+  background-color: rgb(49, 49, 49);
+  width: 500px;
+  height: 400px;
 }
 
-.txt-cont1 > h1 {
-  color: #000;
-  font-family: Arapey;
-  font-size: 60px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 44px;
-}
-
-.txt-cont1 > p {
-  color: #000;
-  font-family: Arapey;
-  font-size: 25px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 44px;
-}
-
-.img-cont1 {
-  width: 655px;
-  height: 542px;
-  flex-shrink: 0;
-  overflow: hidden;
-}
-
-.img-cont1 > img:hover {
-  scale: 1.1;
-  transition: 0.8s;
+.text1 {
+  background-color: rgb(156, 156, 156);
+  width: 400px;
+  height: 150px;
 }
