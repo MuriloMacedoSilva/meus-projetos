@@ -110,9 +110,10 @@ img.ftpessoal:hover {
 }
 
 .sobre {
-    background-image: linear-gradient(to bottom, white, rgb(201, 201, 201));
+    background-image: linear-gradient(to bottom, white, rgb(204, 204, 204));
     margin: 100px 0 0 0;
     width: 100%;
+    padding: 0 0 100px 0;
 }
 
 .cont1 {
@@ -141,10 +142,12 @@ img.ftpessoal:hover {
     margin: 0;
     width: 600px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
 }
 
 .img2 > p {
-    font-size: 13px;
+    font-size: 17px;
+    color: rgb(59, 59, 59);
 }
 
 .cont2 {
@@ -155,10 +158,53 @@ img.ftpessoal:hover {
 }
 
 .img3 {
-    margin: 200px 0 0 0;
+    margin: 200px 160px 0 0;
     width: 600px;
+}
+
+.img3 > p {
+    color: rgb(59, 59, 59);
+    font-size: 17px;
 }
 
 .amostra2 {
     width: 600px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+    border-radius: 10px;
 }
+
+.img4 {
+    width: 250px;
+    margin: 0 0 0 -150px;
+}
+
+.amostra3 {
+    width: 250px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+    border-radius: 10px;
+}
+
+.cont3 {
+    margin: 240px 0 0 0;
+    width: 100%;
+}
+
+.img5 {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 200px;
+}
+
+.img5 > p {
+    color: rgb(59, 59, 59);
+    font-size: 17px;
+}
+
+.amostra4 {
+    width: 600px;
+    border-radius: 10px;
+    margin: 0 0 0 150px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+
