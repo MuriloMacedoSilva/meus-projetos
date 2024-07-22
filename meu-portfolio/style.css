@@ -431,6 +431,9 @@ ul {
   position: relative;
   margin: -80px 0 50px 580px;
   animation: pula 2s alternate infinite ease-in-out;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 ul li {
@@ -543,18 +546,122 @@ ul li:hover::before {
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.219);
 }
 
-.skills > .html-icon {
+.skills > img {
   width: 50px;
   height: 50px;
   border-radius: 100%;
+  margin-top: 15px;
 }
 
 .skills > .barras {
-  margin: 10px 0 0 0;
+  margin: 10px 0 10px 0;
   width: 300px;
   height: 20px;
   background-color: rgb(192, 192, 192);
   border-radius: 30px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
 }
 
+.html {
+  width: 250px;
+  height: 20px;
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 106, 106),
+    rgb(98, 0, 255)
+  );
+  border-radius: 30px;
+  animation: aumento 2s ease-in-out;
+}
 
+.css {
+  width: 195px;
+  height: 20px;
+  background-image: linear-gradient(
+    to left,
+    rgb(106, 255, 143),
+    rgb(98, 0, 255)
+  );
+  border-radius: 30px;
+  animation: aumento 2s ease-in-out;
+}
+
+.javascript {
+  width: 100px;
+  height: 20px;
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 190, 106),
+    rgb(98, 0, 255)
+  );
+  border-radius: 30px;
+  animation: aumento 2s ease-in-out;
+}
+
+.github {
+  width: 250px;
+  height: 20px;
+  background-image: linear-gradient(
+    to left,
+    rgb(138, 106, 255),
+    rgb(98, 0, 255)
+  );
+  border-radius: 30px;
+  animation: aumento 2s ease-in-out;
+}
+
+.python {
+  width: 65px;
+  height: 20px;
+  background-image: linear-gradient(
+    to left,
+    rgb(228, 255, 106),
+    rgb(98, 0, 255)
+  );
+  border-radius: 30px;
+  animation: aumento 2s ease-in-out;
+}
+
+.figma {
+  width: 180px;
+  height: 20px;
+  background-image: linear-gradient(
+    to left,
+    rgb(106, 171, 255),
+    rgb(98, 0, 255)
+  );
+  border-radius: 30px;
+  animation: aumento 2s ease-in-out;
+}
+
+.git {
+  width: 180px;
+  height: 20px;
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 106, 106),
+    rgb(98, 0, 255)
+  );
+  border-radius: 30px;
+  animation: aumento 2s ease-in-out;
+}
+
+@keyframes aumento {
+  0%{
+    width: 0;
+  }
+}
+
+.contatos {
+  padding: 100px 0 100px 450px;
+}
+
+.baixo {
+  margin: auto;
+}
+
+.finalp {
+  color: rgb(66, 66, 66);
+  font-size: 20px;
+  margin: 0 0 20px 550px;
+}
