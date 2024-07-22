@@ -524,15 +524,37 @@ ul li:hover::before {
 }
 
 .cont4 {
-  width: 70%;
-  padding: 20px;
+  width: auto;
+  padding: 20px 100px 20px 100px;
   display: flex;
   gap: 30px;
   border-radius: 20px;
-  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.274);
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0);
   height: 400px;
-  background-color: rgba(0, 0, 0, 0.027);
+  background-color: rgba(0, 0, 0, 0);
   margin: auto;
+}
+
+.skills {
+  width: 300px;
+  padding: 40px;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.438), rgba(90, 90, 90, 0.452));
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.219);
+}
+
+.skills > .html-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.skills > .barras {
+  margin: 10px 0 0 0;
+  width: 300px;
+  height: 20px;
+  background-color: rgb(192, 192, 192);
+  border-radius: 30px;
 }
 
 
