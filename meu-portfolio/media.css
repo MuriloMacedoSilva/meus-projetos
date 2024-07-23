@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1020px) {
+    header {
+        display: none;
+    }
+    /*cabeçalho*/
+
+    .home {
+        flex-direction: column;
+    }
+
+    .img1 {
+        width: 250px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    img.ftpessoal {
+        width: 250px;
+        margin: auto;
+    }
+
+    .txt1 {
+        width: 80%;
+        height: 350px;
+        margin-top: 30px;
+        margin: auto;
+    }
+
+    .cont1 {
+        flex-direction: column;
+    }
+}
