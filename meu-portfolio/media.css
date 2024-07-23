@@ -15,13 +15,13 @@
     }
 
     .img1 {
-        width: 250px;
+        width: 300px;
         margin: auto;
         margin-top: 100px;
     }
 
     img.ftpessoal {
-        width: 250px;
+        width: 300px;
         margin: auto;
     }
 
@@ -32,7 +32,145 @@
         margin: auto;
     }
 
+    .forma2, .forma3 {
+        display: none;
+    }
+
     .cont1 {
         flex-direction: column;
+        margin: auto;
+    }
+
+    .titulo1 {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .img2 {
+        margin: auto;
+        width: 95%;
+    }
+
+    .amostra1 {
+        margin: auto;
+        width: 100%;
+    }
+
+    .cont2 {
+        flex-direction: column;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .img3 {
+        margin: auto;
+        width: 95%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .amostra2 {
+        margin: auto;
+        width: 100%;
+    }
+
+    .img4 {
+        margin: auto;
+        margin-top: 50px;
+        width: 50%;
+    }
+
+    .amostra3 {
+        margin: auto;
+        width: 100%;
+    }
+
+    .cont3 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .img5 {
+        flex-direction: column;
+        margin: auto;
+        width: 95%;
+        z-index: 2;
+    }
+
+    .amostra4 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .menssagem, .menssagem > p {
+        margin: auto;
+        width: 90%;
+    }
+
+    ul {
+        margin: 50px auto;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .forma9 {
+        display: none;
+    }
+
+    .habilidades {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 0 100px 0;
+        margin: auto;
+        margin-bottom: 200px;
+    }
+
+    .titulo2 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .cont4 {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+        height: auto;
+        padding: 0;
+    }
+    .skills {
+        margin: auto;
+        width: 270px;
+        padding: 0;
+    }
+
+    .barras {
+        margin: 0 auto;
+    }
+
+    .contatos {
+        margin: auto;
+        margin-bottom: 100px;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .baixo {
+        margin: auto;
+        justify-content: center;
+        width: 70%;
+        flex-direction: column;
+    }
+
+    .finalp {
+        margin: auto;
+        justify-content: center;
     }
 }

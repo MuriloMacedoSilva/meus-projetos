@@ -11,6 +11,7 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   background-image: linear-gradient(to bottom, white, rgb(204, 204, 204));
+  overflow-x: hidden;
 }
 
 header {
@@ -288,7 +289,7 @@ img.ftpessoal:hover {
     rgba(255, 166, 0, 0.63),
     rgba(98, 0, 255, 0.596)
   );
-  background-size: 400px 200px;
+  background-size: 500% 100%;
   animation: degrade 0.8s infinite alternate;
   position: absolute;
   bottom: 0;
@@ -433,7 +434,6 @@ ul {
   margin: -80px 0 50px 580px;
   animation: pula 2s alternate infinite ease-in-out;
   display: flex;
-  gap: 10px;
   align-items: center;
 }
 
@@ -518,7 +518,7 @@ ul li:hover::before {
     rgb(255, 166, 0),
     rgb(98, 0, 255)
   );
-  background-size: 400px 250px;
+  background-size: 500% 100%;
   animation: degrade 0.8s infinite alternate;
   position: absolute;
   bottom: 0;
