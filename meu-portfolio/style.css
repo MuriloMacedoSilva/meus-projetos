@@ -130,10 +130,6 @@ nav > a:hover {
   z-index: 2;
 }
 
-.efeito-img-topo, .efeito-txt-topo, .titulo1, .img2, .img3, .img4, .img5, .skills, .efeito1, .efeito2, .efeito3, .baixo {
-  visibility: hidden;
-}
-
 img.ftpessoal {
   width: 350px;
   border-radius: 100%;

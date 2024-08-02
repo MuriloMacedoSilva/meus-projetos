@@ -5,18 +5,12 @@
 }
 
 @media screen and (max-width: 1020px) {
-    html, body{
-        overflow-x: hidden;
-    }
     header {
         display: none;
     }
 }
 
 @media screen and (max-width: 1210px) {
-    .efeito-img-topo, .efeito-txt-topo, .titulo1, .img2, .img3, .img4, .img5, .skills, .efeito1, .efeito2, .efeito3, .baixo {
-        visibility: visible;
-      }
 
     /*cabeçalho*/
 
