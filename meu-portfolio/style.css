@@ -130,6 +130,10 @@ nav > a:hover {
   z-index: 2;
 }
 
+.efeito-img-topo, .efeito-txt-topo, .titulo1, .img2, .img3, .img4, .img5 {
+  visibility: hidden;
+}
+
 img.ftpessoal {
   width: 350px;
   border-radius: 100%;
@@ -148,7 +152,7 @@ img.ftpessoal:hover {
   width: 600px;
   height: 300px;
   margin: 200px 150px 0 0;
-  padding: 70px 20px;
+  padding: 70px 20px 30px 20px;
   border-radius: 20px 0 0 0;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.205);
   z-index: 2;
@@ -157,6 +161,7 @@ img.ftpessoal:hover {
 .txt1 > h1 {
   color: rgb(26, 26, 26);
   font-size: 45px;
+  margin-bottom: 30px;
 }
 
 .txt1 > p {
@@ -339,7 +344,7 @@ img.ftpessoal:hover {
 .amostra2 {
   width: 700px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
-  border-radius: 10px;
+  border-radius: 30px;
   animation: pula 2.5s infinite alternate ease-in-out;
 }
 
@@ -352,7 +357,7 @@ img.ftpessoal:hover {
 .amostra3 {
   width: 300px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
-  border-radius: 10px;
+  border-radius: 30px;
   animation: pula 2.5s infinite alternate ease-in-out;
 }
 

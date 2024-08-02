@@ -33,7 +33,7 @@
 
     .txt1 {
         width: 80%;
-        height: 350px;
+        height: auto;
         margin-top: 30px;
         margin: auto;
     }
@@ -139,6 +139,7 @@
     .titulo2 {
         width: 90%;
         margin: auto;
+        margin-top: 30px;
     }
 
     .cont4 {
@@ -151,8 +152,9 @@
     }
     .skills {
         margin: auto;
+        margin-top: 30px;
         width: 270px;
-        padding: 0;
+        padding: 0 0 0 5px;
     }
 
     .barras {
