@@ -43,3 +43,24 @@ revelar.reveal('.img5',{
     distance: '20px'
 })
 
+revelar.reveal('.efeito1',{
+    duration: 2000,
+    distance: '90px'
+})
+
+revelar.reveal('.efeito2',{
+    duration: 2000,
+    distance: '90px',
+    delay: 400
+})
+
+revelar.reveal('.efeito3',{
+    duration: 2000,
+    distance: '90px',
+    delay: 300
+})
+
+revelar.reveal('.baixo',{
+    duration: 2000,
+    distance: '90px'
+})
