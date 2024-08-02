@@ -4,7 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1060px) {
     html, body{
         overflow-x: hidden;
     }
