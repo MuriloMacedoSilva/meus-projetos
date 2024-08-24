@@ -5,3 +5,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(206, 188, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.slider {
+    overflow-x: hidden;
+    width: 900px;
+    border-radius: 20px;
+    scroll-behavior: smooth;
+}
+
+.slide {
+    position: relative;
+}
+
+.content {
+    display: flex;
+    width: fit-content;
+    gap: 20px;
+}
+
+.content img {
+    width: 900px;
+    height: 350px;
+    object-fit: cover;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(76, 124, 124);
+    color: white;
+    position: absolute;
+    top: 50%;
+}
+
+button:first-of-type {
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+button:last-of-type {
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+button:hover {
+    background-color: rgb(9, 75, 75);
+    cursor: pointer;
+    transition: .5s;
+}
