@@ -14,6 +14,10 @@
 
     /*cabeçalho*/
 
+    .body {
+        overflow: hidden;
+    }
+
     .home {
         flex-direction: column;
     }
