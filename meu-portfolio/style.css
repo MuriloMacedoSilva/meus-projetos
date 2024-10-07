@@ -339,8 +339,6 @@ img.ftpessoal:hover {
 
 .amostra2 {
   width: 700px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
-  border-radius: 30px;
   animation: pula 2.5s infinite alternate ease-in-out;
 }
 
@@ -383,6 +381,89 @@ img.ftpessoal:hover {
   z-index: 2;
 }
 
+.cont6 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 120px 0 0 10px;
+}
+
+.cont6 > p {
+  font-size: 20px;
+  color: rgb(59, 59, 59);
+  margin: 0px 0 100px 100px;
+  width: 650px;
+  text-align: center;
+}
+
+.img6 {
+  width: 100%;
+  margin: 0 0 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.amostra5 {
+  width: 600px;
+  margin: 0 0 0 60px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+  animation: pula 2.5s infinite alternate ease-in-out;
+}
+
+.amostra6 {
+  width: 400px;
+  margin: 0 0 0 50px;
+  border-radius: 9px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+
+.img7 {
+  width: 100%;
+  margin: 0px 0 10px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.amostra7 {
+  width: 600px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+  border-radius: 20px;
+  animation: pula 2.5s infinite alternate ease-in-out;
+}
+
+.amostra8 {
+  width: 400px;
+  margin: 0 0 0 0;
+  border-radius: 9px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+
+.img8 {
+  display: flex;
+  align-items: center;
+  pad: 5px;
+  margin: 50px 0 20px 60px;
+}
+
+.img8 > p {
+  font-size: 20px;
+  color: rgb(59, 59, 59);
+  margin: 30px 30px;
+  animation: pula 2.5s infinite alternate ease-in-out;
+}
+
+.amostra9, .amostra10 {
+  width: 400px;
+  border-radius: 9px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+
 .forma8 {
   background-image: linear-gradient(
     to left,
@@ -413,7 +494,7 @@ img.ftpessoal:hover {
   width: 264px;
   height: 300px;
   position: absolute;
-  margin: 2430px 0 0 0;
+  margin: 3890px 0 0 0;
   right: 0;
   border-radius: 0 0 0 700px;
   animation: degrade 3.5s infinite alternate;

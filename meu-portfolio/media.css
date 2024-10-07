@@ -110,6 +110,34 @@
         margin: auto;
     }
 
+    .cont6 {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+        pad: 30px;
+        align-items: center;
+    }
+
+    .cont6 > p {
+        width: 85%;
+        margin: 30px 30px;
+    }
+
+    .img6, .img7, .img8 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        pad: 30px;
+    }
+
+    .amostra5, .amostra6, .amostra7, .amostra8, .amostra9, .amostra10 {
+        width: 100%;
+        margin: 30px 0;
+    }
+
     .menssagem, .menssagem > p {
         margin: auto;
         width: 90%;
