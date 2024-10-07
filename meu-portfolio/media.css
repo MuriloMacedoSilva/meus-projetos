@@ -117,7 +117,7 @@
     .cont6 {
         display: flex;
         flex-direction: column;
-        width: 95%;
+        width: 350px;
         margin: 0 auto;
         pad: 30px;
         align-items: center;
