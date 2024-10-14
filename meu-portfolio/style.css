@@ -494,11 +494,103 @@ img.ftpessoal:hover {
   width: 264px;
   height: 300px;
   position: absolute;
-  margin: 3890px 0 0 0;
+  margin: 5477px 0 0 0;
   right: 0;
   border-radius: 0 0 0 700px;
   animation: degrade 3.5s infinite alternate;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.219);
+}
+
+.habilidades-dados {
+  width: 100vw;
+  margin:  0 0 50px 0;
+  background-image: linear-gradient(to bottom, rgb(83, 60, 189), rgba(84, 60, 189, 0));
+  border-radius: 20px;
+}
+
+.sapiens {
+  width: 750px;
+  margin: 10px 0 30px 60px;
+}
+
+.titulo3 {
+  width: 800px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.titulo3 > h1 {
+  color: rgb(238, 238, 238);
+  font-size: 55px;
+  margin:  30px 0 0 50px;
+}
+
+.cont-dados1 {
+ margin-top: -210px; 
+ display: flex;
+ justify-content: space-between;
+
+}
+
+.colun1 {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  justify-content: space-around;
+  margin: 0 0 0 40px;
+}
+
+.dashimg2 {
+  margin: 0 0 30px 0;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.274);
+}
+
+.colun1 > p {
+  margin: -280px 0 0 0;
+  width: 475px;
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(238, 238, 238);
+}
+
+.videodash {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.274);
+  width: 550px;
+  border-radius: 20px;
+  margin: -660px 0 0 0;
+}
+
+.divdash {
+  padding: 20px;
+  margin: 200px 100px 0px  0;
+}
+
+.divdash > p {
+  width: 400px;
+  color: rgb(73, 73, 73);
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+.colun2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.idade {
+  padding: 10px;
+  margin: -70px 0 10px 0;
+}
+
+.idadeimg {
+  width: 550px;
+  margin: -100px 0 0 50px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.274);
 }
 
 .menssagem {
@@ -578,7 +670,7 @@ ul li:hover::before {
 }
 
 .habilidades {
-  background-image: linear-gradient(to bottom, rgb(204, 204, 204)10%, rgb(79, 58, 97));
+  background-image: linear-gradient(to bottom, rgb(133, 133, 133), rgba(192, 191, 191, 0.027));
   padding: 30px 0 30px 0;
 }
 
@@ -628,8 +720,8 @@ ul li:hover::before {
   width: 280px;
   padding: 10px;
   border-radius: 20px;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.438), rgba(90, 90, 90, 0.452));
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.219);
+  background-color: rgba(211, 211, 211, 0);
+  /*box-shadow: 0 15px 20px rgba(0, 0, 0, 0.219);*/
 }
 
 .skills  img {
@@ -655,7 +747,7 @@ ul li:hover::before {
   margin: 10px 0 10px 0;
   width: 260px;
   height: 20px;
-  background-color: rgb(192, 192, 192);
+  background-color: rgb(233, 233, 233);
   border-radius: 30px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
 }

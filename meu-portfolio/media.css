@@ -157,6 +157,118 @@
         display: none;
     }
 
+    .habilidades-dados {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .titulo3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+
+    .titulo3 > h1 {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 41px;
+        margin-top: 20px;
+    }
+    .sapiens {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .cont-dados1 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .colun1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .colun1 > p {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom:60px;
+        margin-top: 20px;
+    }
+
+    .divdash {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 25px;
+        margin-top: 30px;
+    }
+
+    .colun2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+    }
+
+    .divdash > p {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .dashimg2 {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .videodash {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+
+    .idade {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .idadeimg {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .habilidades {
         display: flex;
         flex-direction: column;
