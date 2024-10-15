@@ -284,7 +284,7 @@
         margin-top: 30px;
     }
 
-    .cont4 {
+    .cont4, .cont7 {
         flex-direction: column;
         width: 100%;
         justify-content: center;

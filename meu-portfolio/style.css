@@ -828,7 +828,7 @@ ul li:hover::before {
 }
 
 .git {
-  width: 180px;
+  width: 100px;
   height: 20px;
   background-image: linear-gradient(
     to left,
@@ -837,6 +837,54 @@ ul li:hover::before {
   );
   border-radius: 30px;
   animation: aumento 2s ease-in-out;
+}
+
+.node {
+  width: 55px;
+  height: 20px;
+  background-image: linear-gradient(
+    to left,
+    rgb(141, 255, 106),
+    rgb(98, 0, 255)
+  );
+  border-radius: 30px;
+  animation: aumento 2s ease-in-out;
+}
+
+.canva {
+  width: 140px;
+  height: 20px;
+  background-image: linear-gradient(
+    to left,
+    rgb(109, 106, 255),
+    rgb(98, 0, 255)
+  );
+  border-radius: 30px;
+  animation: aumento 2s ease-in-out;
+}
+
+.office {
+  width: 180px;
+  height: 20px;
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 136, 106),
+    rgb(98, 0, 255)
+  );
+  border-radius: 30px;
+  animation: aumento 2s ease-in-out;
+}
+
+.cont7 {
+  width: auto;
+  padding: 20px 100px 20px 100px;
+  display: flex;
+  gap: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0);
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0);
+  margin: auto;
 }
 
 @keyframes aumento {
