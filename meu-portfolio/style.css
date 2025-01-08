@@ -10,7 +10,12 @@
 html,
 body {
   scroll-behavior: smooth;
-  background-image: linear-gradient(to bottom, white, rgb(168, 168, 168));
+  /*background-image: linear-gradient(to bottom, white, rgb(168, 168, 168));*/
+  background-color: rgb(24, 24, 43);
+}
+
+p, h1 {
+  color: white;
 }
 
 header {
@@ -24,7 +29,8 @@ header {
   position: sticky;
   top: 0;
   z-index: 3;
-  background-color: rgb(238, 238, 238);
+  /* background-color: rgb(238, 238, 238); */
+  background-color: rgb(24, 24, 43);
 }
 
 header > nav {
@@ -37,7 +43,7 @@ header > nav {
 header > nav > a {
   margin: 10px 50px 10px 50px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 19px;
   position: relative;
   padding: 5px;
@@ -144,8 +150,9 @@ img.ftpessoal:hover {
 }
 
 .txt1 {
-  background-color: white;
-  width: 600px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(49, 55, 73, 0.637);
+  width: 670px;
   height: 300px;
   margin: 200px 150px 0 0;
   padding: 70px 20px 30px 20px;
@@ -155,13 +162,13 @@ img.ftpessoal:hover {
 }
 
 .txt1 > h1 {
-  color: rgb(26, 26, 26);
-  font-size: 45px;
+  /* color: rgb(26, 26, 26); */
+  font-size: 50px;
   margin-bottom: 30px;
 }
 
 .txt1 > p {
-  color: rgb(59, 59, 59);
+  /* color: rgb(59, 59, 59); */
   font-size: 18px;
   text-align: justify;
 }
@@ -276,7 +283,7 @@ img.ftpessoal:hover {
 
 .titulo1 > h1 {
   font-size: 55px;
-  color: rgb(26, 26, 26);
+  /* color: rgb(26, 26, 26); */
   position: relative;
 }
 
@@ -314,7 +321,7 @@ img.ftpessoal:hover {
 
 .img2 > p {
   font-size: 20px;
-  color: rgb(59, 59, 59);
+  /* color: rgb(59, 59, 59); */
   margin: 20px 0;
 }
 
@@ -332,7 +339,7 @@ img.ftpessoal:hover {
 }
 
 .img3 > p {
-  color: rgb(59, 59, 59);
+  /* color: rgb(59, 59, 59); */
   font-size: 20px;
   margin: 20px 0;
 }
@@ -368,7 +375,7 @@ img.ftpessoal:hover {
 }
 
 .img5 > p {
-  color: rgb(59, 59, 59);
+  /* color: rgb(59, 59, 59); */
   font-size: 20px;
   margin: 20px 0;
 }
@@ -392,7 +399,7 @@ img.ftpessoal:hover {
 
 .cont6 > p {
   font-size: 20px;
-  color: rgb(59, 59, 59);
+  /* color: rgb(59, 59, 59); */
   margin: 0px 0 100px 100px;
   width: 650px;
   text-align: center;
@@ -453,7 +460,7 @@ img.ftpessoal:hover {
 
 .img8 > p {
   font-size: 20px;
-  color: rgb(59, 59, 59);
+  /* color: rgb(59, 59, 59); */
   margin: 30px 30px;
   animation: pula 2.5s infinite alternate ease-in-out;
 }
@@ -496,7 +503,7 @@ img.ftpessoal:hover {
   position: absolute;
   margin: 5477px 0 0 0;
   right: 0;
-  border-radius: 0 0 0 700px;
+  border-radius: 100px 200px 50px 700px;
   animation: degrade 3.5s infinite alternate;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.219);
 }
@@ -604,7 +611,7 @@ img.ftpessoal:hover {
 
 .menssagem > p {
   font-size: 20px;
-  color: rgb(59, 59, 59);
+  /* color: rgb(59, 59, 59); */
 }
 
 ul {
@@ -673,7 +680,7 @@ ul li:hover::before {
 }
 
 .habilidades {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)2%, rgb(104, 104, 104), rgba(192, 191, 191, 0.027));
+  /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)2%, rgb(104, 104, 104), rgba(192, 191, 191, 0.027)); */
   padding: 30px 0 30px 0;
 }
 
@@ -685,7 +692,7 @@ ul li:hover::before {
 
 .titulo2 > h1 {
   font-size: 55px;
-  color: rgb(31, 31, 31);
+  /* color: rgb(31, 31, 31); */
   position: relative;
 }
 
@@ -742,7 +749,7 @@ ul li:hover::before {
 
 .txtskills p {
   margin-bottom: 15px;
-  color: rgb(43, 43, 43);
+  /* color: rgb(43, 43, 43); */
   font-size: 20px;
 }
 
@@ -904,7 +911,7 @@ ul li:hover::before {
 }
 
 .finalp {
-  color: rgb(66, 66, 66);
+  /* color: rgb(66, 66, 66); */
   font-size: 20px;
   margin: 0 0 5px 500px;
 }
